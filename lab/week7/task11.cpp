@@ -4,6 +4,7 @@ using namespace std;
 int main(){
     int n1,n2,choice;
     char opp;
+    while(true){
     cout<<endl<<"---------Simple Calculator------------"<<endl;
     cout<<"1.Addition"<<endl;
     cout<<"2.Subtraction"<<endl;
@@ -37,7 +38,7 @@ int main(){
     else if(choice==5){
         cout<<"Screen Cleared! "<<endl;
         system("clear");
-    return 0;
+   
 
     }
     else if(choice==6){
@@ -47,6 +48,6 @@ int main(){
     else{
         cout<<"Invalid credentials!"<<endl;
         return 0;
-    }
+    }}
   return 0;
 }

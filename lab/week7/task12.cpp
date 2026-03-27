@@ -3,6 +3,7 @@ using namespace std;
 int main(){
     int choice;
     string book_name,issue_book;
+    while(true){
     cout<<endl<<"-------Library System--------"<<endl;
     cout<<"1.Add Book "<<endl;
     cout<<"2.View Book "<<endl;
@@ -35,6 +36,6 @@ int main(){
     else{
         cout<<"Invalid credentials!"<<endl;
         return 0;
-    }
+    }}
     return 0;
 }
