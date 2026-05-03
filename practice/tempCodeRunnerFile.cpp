@@ -1,0 +1,1 @@
+int maximum = maximumMarks(marks, 4);
